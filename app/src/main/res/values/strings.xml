@@ -3,4 +3,8 @@
     <string name="hello">Hello</string>
     <string name="you">You</string>
     <string name="lorem_ipsum_dolor_sit_amet_consectetur_adiscing_elit">Lorem ipsum dolor sit amet consectetur adiscing elit</string>
+    <string name="mockup">Mockup</string>
+    <string name="mobile_app">Mobile App</string>
+    <string name="your_name">Your name</string>
+    <string name="your_e_mail">Your e-mail</string>
 </resources>

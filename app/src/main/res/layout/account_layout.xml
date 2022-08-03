@@ -1,9 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AccountActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250sp"
+        android:layout_marginRight="165sp"
+        android:fontFamily="@font/ralewayregular"
+        android:text="Create"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="250sp"
+        android:fontFamily="@font/ralewayblack"
+        android:text="Account"
+        android:textColor="#000"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/linha" />
+    ]
+
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="370sp"
+        android:background="@drawable/borda"
+        android:fontFamily="@font/ralewaymedium"
+        android:hint="@string/your_name"
+        android:inputType="textPersonName"
+        android:maxLength="100"
+        android:paddingLeft="15sp"
+        android:paddingBottom="5sp"
+        android:textColorHint="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="430sp"
+        android:background="@drawable/borda"
+        android:fontFamily="@font/ralewaymedium"
+        android:hint="@string/your_e_mail"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:paddingLeft="15sp"
+        android:paddingBottom="5sp"
+        android:textColorHint="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="490sp"
+        android:background="@drawable/borda"
+        android:fontFamily="@font/ralewaymedium"
+        android:hint="Your Password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:paddingLeft="15sp"
+        android:paddingBottom="5sp"
+        android:textColorHint="#000"
+        android:textSize="20sp" />
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="530dp"
+        android:src="@drawable/circulo" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="530dp"
+        android:src="@drawable/ic_baseline_arrow_forward" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
