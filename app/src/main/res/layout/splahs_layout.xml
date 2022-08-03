@@ -11,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|"
-        android:layout_marginTop="130sp"
+        android:layout_marginTop="110sp"
         android:fontFamily="@font/ralewayregular"
-        android:text="Hello"
+        android:text="@string/hello"
         android:textColor="#000"
         android:textSize="60sp" />
 
@@ -21,25 +21,58 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="190sp"
+        android:layout_marginTop="170sp"
         android:fontFamily="@font/ralewayblack"
-        android:text="You"
+        android:text="@string/you"
         android:textColor="#000"
         android:textSize="55sp"
         android:textStyle="bold" />
 
     <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/linha"/>
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/linha" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center|"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/iconcalendar" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/iconflor" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/iconlotus" />
+
 
     <ImageView
 
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_marginTop="500dp"
         android:src="@drawable/circulo" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/ic_baseline_arrow_forward" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
