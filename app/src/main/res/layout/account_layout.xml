@@ -45,6 +45,7 @@
     ]
 
     <EditText
+        android:id="@+id/EdtName"
         android:layout_width="250sp"
         android:layout_height="40sp"
         android:layout_gravity="center_horizontal"
@@ -60,6 +61,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/EdtEmail"
         android:layout_width="250sp"
         android:layout_height="40sp"
         android:layout_gravity="center_horizontal"
@@ -75,6 +77,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/EdtPass"
         android:layout_width="250sp"
         android:layout_height="40sp"
         android:layout_gravity="center_horizontal"
@@ -89,19 +92,14 @@
         android:textColorHint="#000"
         android:textSize="20sp" />
 
-    <ImageView
 
+    <ImageView
+        android:id="@+id/BtnSplashs"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="530dp"
-        android:src="@drawable/circulo" />
-
-    <ImageView
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="530dp"
+        android:background="@drawable/circulo"
         android:src="@drawable/ic_baseline_arrow_forward" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

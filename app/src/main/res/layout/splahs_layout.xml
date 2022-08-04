@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="110sp"
         android:fontFamily="@font/ralewayregular"
         android:text="@string/hello"
@@ -38,7 +38,7 @@
     <ImageView
         android:layout_width="85dp"
         android:layout_height="85dp"
-        android:layout_gravity="center|"
+        android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:src="@drawable/iconcalendar" />
 
@@ -73,19 +73,15 @@
 
 
     <ImageView
-
+        android:id="@+id/BtnSplashs"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="530dp"
-        android:src="@drawable/circulo" />
+        android:src="@drawable/ic_baseline_arrow_forward"
+        android:background="@drawable/circulo" />
 
-    <ImageView
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="530dp"
-        android:src="@drawable/ic_baseline_arrow_forward" />
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
